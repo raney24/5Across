@@ -1,16 +1,16 @@
 //
-//  RootViewController.m
-//  5 Across Beta
+//  PostListTableViewController.m
+//  
 //
-//  Created by Kyle Raney on 4/17/15.
-//  Copyright (c) 2015 Kyle Raney. All rights reserved.
+//  Created by Kyle Raney on 5/26/15.
+//
 //
 
-#import "RootViewController.h"
+#import "PostListTableViewController.h"
 #import "NSString+HTML.h"
 #import "MWFeedParser.h"
 
-@implementation RootViewController
+@implementation PostListTableViewController
 
 @synthesize itemsToDisplay;
 
@@ -52,7 +52,7 @@
 - (void)updateTableWithParsedItems {
     self.itemsToDisplay = [parsedItems sortedArrayUsingDescriptors:
                            [NSArray arrayWithObject:[[NSSortDescriptor alloc] initWithKey:@"date"
-                                                                              ascending:NO]]];
+                                                                                ascending:NO]]];
     NSLog(@"IM HERE ::: %@ ", itemsToDisplay);
     self.tableView.userInteractionEnabled = YES;
     self.tableView.alpha = 1;
@@ -143,3 +143,4 @@
 
 
 @end
+

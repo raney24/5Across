@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27411A711B142D1F00664EBB /* PostListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27411A701B142D1F00664EBB /* PostListTableViewController.m */; };
+		27411A761B143A0300664EBB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27411A751B143A0300664EBB /* AboutViewController.m */; };
+		27411A7A1B14FAD000664EBB /* 5-pitches.png in Resources */ = {isa = PBXBuildFile; fileRef = 27411A791B14FAD000664EBB /* 5-pitches.png */; };
+		27411A7C1B14FF5600664EBB /* 5-minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 27411A7B1B14FF5600664EBB /* 5-minutes.png */; };
 		27C590921AE1AC74008F4B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590911AE1AC74008F4B4E /* main.m */; };
 		27C590951AE1AC74008F4B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590941AE1AC74008F4B4E /* AppDelegate.m */; };
 		27C5909B1AE1AC74008F4B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C590991AE1AC74008F4B4E /* Main.storyboard */; };
@@ -16,7 +20,6 @@
 		27C590B71AE1AED7008F4B4E /* Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590B61AE1AED7008F4B4E /* Parse.m */; };
 		27C590BA1AE1D4A4008F4B4E /* PostDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590B91AE1D4A4008F4B4E /* PostDataViewController.m */; };
 		27C590C31AE1DAC2008F4B4E /* PostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590C21AE1DAC2008F4B4E /* PostTableViewController.m */; };
-		27C590C61AE1EA67008F4B4E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590C51AE1EA67008F4B4E /* RootViewController.m */; };
 		EACDEB54C4D06329223985CB /* libPods-5 Across Beta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF660F2DA2E14A0BC72B588F /* libPods-5 Across Beta.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,12 @@
 /* Begin PBXFileReference section */
 		068AEAA7599272BA64B03026 /* Pods-5 Across Beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5 Across Beta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5 Across Beta/Pods-5 Across Beta.debug.xcconfig"; sourceTree = "<group>"; };
 		1B191B5B32C182B8727A36CF /* Pods-5 Across Beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5 Across Beta.release.xcconfig"; path = "Pods/Target Support Files/Pods-5 Across Beta/Pods-5 Across Beta.release.xcconfig"; sourceTree = "<group>"; };
+		27411A6F1B142D1F00664EBB /* PostListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListTableViewController.h; sourceTree = "<group>"; };
+		27411A701B142D1F00664EBB /* PostListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostListTableViewController.m; sourceTree = "<group>"; };
+		27411A741B143A0300664EBB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		27411A751B143A0300664EBB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		27411A791B14FAD000664EBB /* 5-pitches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-pitches.png"; sourceTree = "<group>"; };
+		27411A7B1B14FF5600664EBB /* 5-minutes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-minutes.png"; sourceTree = "<group>"; };
 		27C5908C1AE1AC74008F4B4E /* 5 Across Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 Across Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C590901AE1AC74008F4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C590911AE1AC74008F4B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,8 +59,6 @@
 		27C590B91AE1D4A4008F4B4E /* PostDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDataViewController.m; sourceTree = "<group>"; };
 		27C590C11AE1DAC2008F4B4E /* PostTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewController.h; sourceTree = "<group>"; };
 		27C590C21AE1DAC2008F4B4E /* PostTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewController.m; sourceTree = "<group>"; };
-		27C590C41AE1EA67008F4B4E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		27C590C51AE1EA67008F4B4E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		AF660F2DA2E14A0BC72B588F /* libPods-5 Across Beta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-5 Across Beta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +81,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27411A731B14398300664EBB /* Tab Bar VC */ = {
+			isa = PBXGroup;
+			children = (
+				27411A6F1B142D1F00664EBB /* PostListTableViewController.h */,
+				27411A701B142D1F00664EBB /* PostListTableViewController.m */,
+				27C590C11AE1DAC2008F4B4E /* PostTableViewController.h */,
+				27C590C21AE1DAC2008F4B4E /* PostTableViewController.m */,
+				27411A741B143A0300664EBB /* AboutViewController.h */,
+				27411A751B143A0300664EBB /* AboutViewController.m */,
+			);
+			name = "Tab Bar VC";
+			sourceTree = "<group>";
+		};
+		27411A781B14FAC300664EBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27411A791B14FAD000664EBB /* 5-pitches.png */,
+				27411A7B1B14FF5600664EBB /* 5-minutes.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		27C590831AE1AC74008F4B4E = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +126,10 @@
 		27C5908E1AE1AC74008F4B4E /* 5 Across Beta */ = {
 			isa = PBXGroup;
 			children = (
+				27411A781B14FAC300664EBB /* Images */,
 				27C590931AE1AC74008F4B4E /* AppDelegate.h */,
 				27C590941AE1AC74008F4B4E /* AppDelegate.m */,
-				27C590C11AE1DAC2008F4B4E /* PostTableViewController.h */,
-				27C590C21AE1DAC2008F4B4E /* PostTableViewController.m */,
-				27C590C41AE1EA67008F4B4E /* RootViewController.h */,
-				27C590C51AE1EA67008F4B4E /* RootViewController.m */,
+				27411A731B14398300664EBB /* Tab Bar VC */,
 				27C590B81AE1D4A4008F4B4E /* PostDataViewController.h */,
 				27C590B91AE1D4A4008F4B4E /* PostDataViewController.m */,
 				27C5909C1AE1AC74008F4B4E /* Images.xcassets */,
@@ -242,6 +269,8 @@
 			files = (
 				27C5909B1AE1AC74008F4B4E /* Main.storyboard in Resources */,
 				27C590A01AE1AC74008F4B4E /* LaunchScreen.xib in Resources */,
+				27411A7A1B14FAD000664EBB /* 5-pitches.png in Resources */,
+				27411A7C1B14FF5600664EBB /* 5-minutes.png in Resources */,
 				27C5909D1AE1AC74008F4B4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27411A711B142D1F00664EBB /* PostListTableViewController.m in Sources */,
 				27C590B71AE1AED7008F4B4E /* Parse.m in Sources */,
 				27C590951AE1AC74008F4B4E /* AppDelegate.m in Sources */,
-				27C590C61AE1EA67008F4B4E /* RootViewController.m in Sources */,
+				27411A761B143A0300664EBB /* AboutViewController.m in Sources */,
 				27C590BA1AE1D4A4008F4B4E /* PostDataViewController.m in Sources */,
 				27C590921AE1AC74008F4B4E /* main.m in Sources */,
 				27C590C31AE1DAC2008F4B4E /* PostTableViewController.m in Sources */,

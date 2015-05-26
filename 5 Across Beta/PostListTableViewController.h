@@ -1,9 +1,9 @@
 //
-//  RootViewController.h
-//  5 Across Beta
+//  PostListTableViewController.h
+//  
 //
-//  Created by Kyle Raney on 4/17/15.
-//  Copyright (c) 2015 Kyle Raney. All rights reserved.
+//  Created by Kyle Raney on 5/26/15.
+//
 //
 
 #import <UIKit/UIKit.h>
@@ -11,7 +11,7 @@
 #import "SDFeedParser.h"
 #import "NSString+HTML.h"
 
-@interface RootViewController : UITableViewController <MWFeedParserDelegate> {
+@interface PostListTableViewController : UITableViewController <MWFeedParserDelegate> {
     
     MWFeedParser *feedParser;
     NSMutableArray *parsedItems;
