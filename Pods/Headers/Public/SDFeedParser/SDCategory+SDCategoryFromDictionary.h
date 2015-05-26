@@ -1,0 +1,1 @@
+../../../SDFeedParser/SDFeedParser/SDCategory+SDCategoryFromDictionary.h

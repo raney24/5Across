@@ -1,0 +1,1 @@
+PODS___ACROSS_BETA_AFNETWORKING_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
