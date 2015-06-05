@@ -10,9 +10,14 @@
 
 @interface AboutViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIButton *PitchesButton;
+@property (weak, nonatomic) IBOutlet UIButton *pitchesButton;
 
-- (IBAction)PitchesButtonPressed:(UIButton *)sender;
-- (IBAction)PitchesButtonPressed2:(id)sender;
+- (IBAction)pitchesButtonPressed:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *minuteButton;
+- (IBAction)minuteButtonPressed:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *minuteLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *minuteIcon;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *minuteLabelTopContstraint;
 
 @end

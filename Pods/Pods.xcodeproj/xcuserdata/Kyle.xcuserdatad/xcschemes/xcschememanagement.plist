@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-5 Across Beta-JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-5 Across Beta-MWFeedParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-5 Across Beta-youtube-ios-player-helper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-5 Across Beta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DBF84DAF3FD2D67D265BB2B</key>
+		<key>3BC23789E307ED31AA2574F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>37A14C9EB744F3954C8E93F7</key>
+		<key>580D541F9FD5BB2F24D414B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>58F597B84DD5AFB07C5AB3E0</key>
+		<key>5F3955E9AB62620D7C49C507</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>679E657104DB296E41382F91</key>
+		<key>839AA0B43E9D09DD9E1A4E0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EFFA73BB44E37F5E23CB8B4F</key>
+		<key>8F57C8F3A1DC501201D28698</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE12C9F83820C58B7E7D62B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFC57A3905B1E4D3E8AD79BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

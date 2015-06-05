@@ -5,7 +5,10 @@ target '5 Across Beta' do
 
 pod "SDFeedParser", "~> 1.0"
 pod 'SHXMLParser'
- pod 'MWFeedParser'
+pod 'MWFeedParser'
+pod "youtube-ios-player-helper", "~> 0.1.3"
+pod 'AFNetworking'
+pod 'JSONModel'
 
 end
 

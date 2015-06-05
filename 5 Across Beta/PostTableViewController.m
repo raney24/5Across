@@ -16,22 +16,20 @@ typedef enum { SectionDetailSummary } DetailRows;
 
 @implementation PostTableViewController
 
-@synthesize item, dateString, summaryString;
-
 -(void) viewDidLoad {
     [super viewDidLoad];
     
     
     // Date
-    if (item.date) {
+    if (_item.date) {
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
         [formatter setDateStyle:NSDateFormatterMediumStyle];
         [formatter setTimeStyle:NSDateFormatterMediumStyle];
-        self.dateString = [formatter stringFromDate:item.date];
+        self.dateString = [formatter stringFromDate:_item.date];
     }
     
-    if (item.summary) {
-        self.summaryString = [item.summary stringByConvertingHTMLToPlainText];
+    if (_item.summary) {
+        self.summaryString = [_item.summary stringByConvertingHTMLToPlainText];
     } else {
         self.summaryString = @"No Summary";
     }
@@ -66,13 +64,17 @@ typedef enum { SectionDetailSummary } DetailRows;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
-    NSLog(@"%@", item.title);
+    
+    NSString *itemContent = _item.content ? [_item.content stringByConvertingHTMLToPlainText] : @"No content";
+    
+    NSLog(@"%@", itemContent);
+    
     
     cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.font = [UIFont systemFontOfSize:15];
-    if (item) {
-        NSString *itemTitle = item.title ? [item.title stringByConvertingHTMLToPlainText] : @"No title";
-        cell.textLabel.text = item.title;
+    if (_item) {
+        NSString *_itemTitle = _item.title ? [_item.title stringByConvertingHTMLToPlainText] : @"No title";
+        cell.textLabel.text = _item.title;
         
     
         // Display
@@ -83,18 +85,18 @@ typedef enum { SectionDetailSummary } DetailRows;
                 switch (indexPath.row) {
                     case SectionHeaderTitle:
                         cell.textLabel.font = [UIFont boldSystemFontOfSize:15];
-                        cell.textLabel.text = itemTitle;
+                        cell.textLabel.text = _itemTitle;
                         break;
                     case SectionHeaderDate:
-                        cell.textLabel.text = dateString ? dateString : @"[No Date]";
+                        cell.textLabel.text = _dateString ? _dateString : @"[No Date]";
                         break;
                     case SectionHeaderURL:
-                        cell.textLabel.text = item.link ? item.link : @"[No Link]";
+                        cell.textLabel.text = _item.link ? _item.link : @"[No Link]";
                         cell.textLabel.textColor = [UIColor blueColor];
                         cell.selectionStyle = UITableViewCellSelectionStyleBlue;
                         break;
                     case SectionHeaderAuthor:
-                        cell.textLabel.text = item.author ? item.author : @"[No Author]";
+                        cell.textLabel.text = _item.author ? _item.author : @"[No Author]";
                         break;
                 }
                 break;
@@ -125,8 +127,8 @@ typedef enum { SectionDetailSummary } DetailRows;
     } else {
         
         NSString *summary = @"No Summary";
-        if (summaryString) {
-            summary = summaryString;
+        if (_summaryString) {
+            summary = _summaryString;
         }
         CGSize s = [summary sizeWithFont:[UIFont systemFontOfSize:15]
                         constrainedToSize:CGSizeMake(self.view.bounds.size.width - 40, MAXFLOAT)
@@ -142,8 +144,8 @@ typedef enum { SectionDetailSummary } DetailRows;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == SectionHeader && indexPath.row == SectionHeaderURL) { //Open URL
-        if (item.link) {
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:item.link]];
+        if (_item.link) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_item.link]];
         }
     }
     

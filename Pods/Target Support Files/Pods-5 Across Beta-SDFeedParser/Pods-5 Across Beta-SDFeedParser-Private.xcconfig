@@ -1,6 +1,6 @@
 #include "Pods-5 Across Beta-SDFeedParser.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SDFeedParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/MWFeedParser" "${PODS_ROOT}/Headers/Public/SDFeedParser" "${PODS_ROOT}/Headers/Public/SHXMLParser"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SDFeedParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JSONModel" "${PODS_ROOT}/Headers/Public/MWFeedParser" "${PODS_ROOT}/Headers/Public/SDFeedParser" "${PODS_ROOT}/Headers/Public/SHXMLParser" "${PODS_ROOT}/Headers/Public/youtube-ios-player-helper"
 OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

@@ -12,8 +12,8 @@
 #import "NSString+HTML.h"
 
 @interface PostTableViewController : UITableViewController {
-    MWFeedItem *item;
-    NSString *dateString, *summaryString;
+//    MWFeedItem *item;
+//    NSString *dateString, *summaryString;
 }
 
 @property (strong, nonatomic) MWFeedItem *item;

@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271FC5161B16E288008D51CC /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FC5151B16E288008D51CC /* RoundButton.m */; };
+		271FC5181B17C06B008D51CC /* mic-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FC5171B17C06B008D51CC /* mic-icon.png */; };
+		271FC51D1B17C5D3008D51CC /* clock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FC5191B17C5D3008D51CC /* clock-icon.png */; };
+		271FC51E1B17C5D3008D51CC /* dollar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FC51A1B17C5D3008D51CC /* dollar-icon.png */; };
+		271FC51F1B17C5D3008D51CC /* stopwatch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FC51B1B17C5D3008D51CC /* stopwatch-icon.png */; };
+		271FC5221B17C67D008D51CC /* trophy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FC5211B17C67D008D51CC /* trophy-icon.png */; };
+		271FC5411B1CFFFF008D51CC /* 5-across-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 271FC5401B1CFFFF008D51CC /* 5-across-logo.png */; };
+		271FC5441B1D00AF008D51CC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FC5431B1D00AF008D51CC /* RegisterViewController.m */; };
+		271FC5471B1D0698008D51CC /* registerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 271FC5461B1D0698008D51CC /* registerButton.m */; };
+		271FC5491B1D0E3B008D51CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271FC5481B1D0E3B008D51CC /* QuartzCore.framework */; };
 		27411A711B142D1F00664EBB /* PostListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27411A701B142D1F00664EBB /* PostListTableViewController.m */; };
 		27411A761B143A0300664EBB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27411A751B143A0300664EBB /* AboutViewController.m */; };
 		27411A7A1B14FAD000664EBB /* 5-pitches.png in Resources */ = {isa = PBXBuildFile; fileRef = 27411A791B14FAD000664EBB /* 5-pitches.png */; };
 		27411A7C1B14FF5600664EBB /* 5-minutes.png in Resources */ = {isa = PBXBuildFile; fileRef = 27411A7B1B14FF5600664EBB /* 5-minutes.png */; };
+		27AF6EFE1B1E467B000BA5AD /* TraktAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6EFD1B1E467B000BA5AD /* TraktAPIClient.m */; };
+		27AF6F081B1E5F4C000BA5AD /* statusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6F071B1E5F4C000BA5AD /* statusModel.m */; };
+		27AF6F0B1B20F7E0000BA5AD /* VideoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6F0A1B20F7E0000BA5AD /* VideoCollectionViewController.m */; };
 		27C590921AE1AC74008F4B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590911AE1AC74008F4B4E /* main.m */; };
 		27C590951AE1AC74008F4B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590941AE1AC74008F4B4E /* AppDelegate.m */; };
 		27C5909B1AE1AC74008F4B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C590991AE1AC74008F4B4E /* Main.storyboard */; };
@@ -36,12 +49,31 @@
 /* Begin PBXFileReference section */
 		068AEAA7599272BA64B03026 /* Pods-5 Across Beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5 Across Beta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5 Across Beta/Pods-5 Across Beta.debug.xcconfig"; sourceTree = "<group>"; };
 		1B191B5B32C182B8727A36CF /* Pods-5 Across Beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5 Across Beta.release.xcconfig"; path = "Pods/Target Support Files/Pods-5 Across Beta/Pods-5 Across Beta.release.xcconfig"; sourceTree = "<group>"; };
+		271FC5141B16E288008D51CC /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
+		271FC5151B16E288008D51CC /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
+		271FC5171B17C06B008D51CC /* mic-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic-icon.png"; sourceTree = "<group>"; };
+		271FC5191B17C5D3008D51CC /* clock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-icon.png"; sourceTree = "<group>"; };
+		271FC51A1B17C5D3008D51CC /* dollar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dollar-icon.png"; sourceTree = "<group>"; };
+		271FC51B1B17C5D3008D51CC /* stopwatch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopwatch-icon.png"; sourceTree = "<group>"; };
+		271FC5211B17C67D008D51CC /* trophy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trophy-icon.png"; sourceTree = "<group>"; };
+		271FC5401B1CFFFF008D51CC /* 5-across-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-across-logo.png"; sourceTree = "<group>"; };
+		271FC5421B1D00AF008D51CC /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		271FC5431B1D00AF008D51CC /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		271FC5451B1D0698008D51CC /* registerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerButton.h; sourceTree = "<group>"; };
+		271FC5461B1D0698008D51CC /* registerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerButton.m; sourceTree = "<group>"; };
+		271FC5481B1D0E3B008D51CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		27411A6F1B142D1F00664EBB /* PostListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListTableViewController.h; sourceTree = "<group>"; };
 		27411A701B142D1F00664EBB /* PostListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostListTableViewController.m; sourceTree = "<group>"; };
 		27411A741B143A0300664EBB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		27411A751B143A0300664EBB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		27411A791B14FAD000664EBB /* 5-pitches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-pitches.png"; sourceTree = "<group>"; };
 		27411A7B1B14FF5600664EBB /* 5-minutes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-minutes.png"; sourceTree = "<group>"; };
+		27AF6EFC1B1E467B000BA5AD /* TraktAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraktAPIClient.h; sourceTree = "<group>"; };
+		27AF6EFD1B1E467B000BA5AD /* TraktAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraktAPIClient.m; sourceTree = "<group>"; };
+		27AF6F061B1E5F4C000BA5AD /* statusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statusModel.h; sourceTree = "<group>"; };
+		27AF6F071B1E5F4C000BA5AD /* statusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statusModel.m; sourceTree = "<group>"; };
+		27AF6F091B20F7E0000BA5AD /* VideoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCollectionViewController.h; sourceTree = "<group>"; };
+		27AF6F0A1B20F7E0000BA5AD /* VideoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCollectionViewController.m; sourceTree = "<group>"; };
 		27C5908C1AE1AC74008F4B4E /* 5 Across Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 Across Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C590901AE1AC74008F4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C590911AE1AC74008F4B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271FC5491B1D0E3B008D51CC /* QuartzCore.framework in Frameworks */,
 				EACDEB54C4D06329223985CB /* libPods-5 Across Beta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +114,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271FC53F1B1CFA2D008D51CC /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271FC5451B1D0698008D51CC /* registerButton.h */,
+				271FC5461B1D0698008D51CC /* registerButton.m */,
+				271FC5141B16E288008D51CC /* RoundButton.h */,
+				271FC5151B16E288008D51CC /* RoundButton.m */,
+				27AF6EFC1B1E467B000BA5AD /* TraktAPIClient.h */,
+				27AF6EFD1B1E467B000BA5AD /* TraktAPIClient.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
 		27411A731B14398300664EBB /* Tab Bar VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +136,10 @@
 				27C590C21AE1DAC2008F4B4E /* PostTableViewController.m */,
 				27411A741B143A0300664EBB /* AboutViewController.h */,
 				27411A751B143A0300664EBB /* AboutViewController.m */,
+				27AF6F091B20F7E0000BA5AD /* VideoCollectionViewController.h */,
+				27AF6F0A1B20F7E0000BA5AD /* VideoCollectionViewController.m */,
+				271FC5421B1D00AF008D51CC /* RegisterViewController.h */,
+				271FC5431B1D00AF008D51CC /* RegisterViewController.m */,
 			);
 			name = "Tab Bar VC";
 			sourceTree = "<group>";
@@ -97,10 +147,25 @@
 		27411A781B14FAC300664EBB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				271FC5401B1CFFFF008D51CC /* 5-across-logo.png */,
+				271FC5191B17C5D3008D51CC /* clock-icon.png */,
+				271FC51A1B17C5D3008D51CC /* dollar-icon.png */,
+				271FC51B1B17C5D3008D51CC /* stopwatch-icon.png */,
+				271FC5171B17C06B008D51CC /* mic-icon.png */,
 				27411A791B14FAD000664EBB /* 5-pitches.png */,
+				271FC5211B17C67D008D51CC /* trophy-icon.png */,
 				27411A7B1B14FF5600664EBB /* 5-minutes.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		27AF6F051B1E5F13000BA5AD /* JSON Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				27AF6F061B1E5F4C000BA5AD /* statusModel.h */,
+				27AF6F071B1E5F4C000BA5AD /* statusModel.m */,
+			);
+			name = "JSON Hierarchy";
 			sourceTree = "<group>";
 		};
 		27C590831AE1AC74008F4B4E = {
@@ -132,7 +197,9 @@
 				27411A731B14398300664EBB /* Tab Bar VC */,
 				27C590B81AE1D4A4008F4B4E /* PostDataViewController.h */,
 				27C590B91AE1D4A4008F4B4E /* PostDataViewController.m */,
+				271FC53F1B1CFA2D008D51CC /* Helper Classes */,
 				27C5909C1AE1AC74008F4B4E /* Images.xcassets */,
+				27AF6F051B1E5F13000BA5AD /* JSON Hierarchy */,
 				27C5909E1AE1AC74008F4B4E /* LaunchScreen.xib */,
 				27C590991AE1AC74008F4B4E /* Main.storyboard */,
 				27C5908F1AE1AC74008F4B4E /* Supporting Files */,
@@ -171,6 +238,7 @@
 		B885DB1B09A873CFBA7650A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				271FC5481B1D0E3B008D51CC /* QuartzCore.framework */,
 				AF660F2DA2E14A0BC72B588F /* libPods-5 Across Beta.a */,
 			);
 			name = Frameworks;
@@ -268,9 +336,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C5909B1AE1AC74008F4B4E /* Main.storyboard in Resources */,
+				271FC51D1B17C5D3008D51CC /* clock-icon.png in Resources */,
+				271FC51F1B17C5D3008D51CC /* stopwatch-icon.png in Resources */,
 				27C590A01AE1AC74008F4B4E /* LaunchScreen.xib in Resources */,
+				271FC5181B17C06B008D51CC /* mic-icon.png in Resources */,
+				271FC5411B1CFFFF008D51CC /* 5-across-logo.png in Resources */,
 				27411A7A1B14FAD000664EBB /* 5-pitches.png in Resources */,
+				271FC5221B17C67D008D51CC /* trophy-icon.png in Resources */,
 				27411A7C1B14FF5600664EBB /* 5-minutes.png in Resources */,
+				271FC51E1B17C5D3008D51CC /* dollar-icon.png in Resources */,
 				27C5909D1AE1AC74008F4B4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,10 +398,16 @@
 			files = (
 				27411A711B142D1F00664EBB /* PostListTableViewController.m in Sources */,
 				27C590B71AE1AED7008F4B4E /* Parse.m in Sources */,
+				27AF6F081B1E5F4C000BA5AD /* statusModel.m in Sources */,
 				27C590951AE1AC74008F4B4E /* AppDelegate.m in Sources */,
+				271FC5471B1D0698008D51CC /* registerButton.m in Sources */,
 				27411A761B143A0300664EBB /* AboutViewController.m in Sources */,
+				27AF6EFE1B1E467B000BA5AD /* TraktAPIClient.m in Sources */,
+				271FC5441B1D00AF008D51CC /* RegisterViewController.m in Sources */,
+				271FC5161B16E288008D51CC /* RoundButton.m in Sources */,
 				27C590BA1AE1D4A4008F4B4E /* PostDataViewController.m in Sources */,
 				27C590921AE1AC74008F4B4E /* main.m in Sources */,
+				27AF6F0B1B20F7E0000BA5AD /* VideoCollectionViewController.m in Sources */,
 				27C590C31AE1DAC2008F4B4E /* PostTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +533,15 @@
 			baseConfigurationReference = 068AEAA7599272BA64B03026 /* Pods-5 Across Beta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MWFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/SDFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/SHXMLParser\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "5 Across Beta/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +553,15 @@
 			baseConfigurationReference = 1B191B5B32C182B8727A36CF /* Pods-5 Across Beta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MWFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/SDFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/SHXMLParser\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "5 Across Beta/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
