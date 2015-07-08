@@ -24,6 +24,7 @@
 		27AF6EFE1B1E467B000BA5AD /* TraktAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6EFD1B1E467B000BA5AD /* TraktAPIClient.m */; };
 		27AF6F081B1E5F4C000BA5AD /* statusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6F071B1E5F4C000BA5AD /* statusModel.m */; };
 		27AF6F0B1B20F7E0000BA5AD /* VideoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6F0A1B20F7E0000BA5AD /* VideoCollectionViewController.m */; };
+		27AF6F111B21281B000BA5AD /* ParseBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF6F101B21281B000BA5AD /* ParseBlog.m */; };
 		27C590921AE1AC74008F4B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590911AE1AC74008F4B4E /* main.m */; };
 		27C590951AE1AC74008F4B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C590941AE1AC74008F4B4E /* AppDelegate.m */; };
 		27C5909B1AE1AC74008F4B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C590991AE1AC74008F4B4E /* Main.storyboard */; };
@@ -74,6 +75,8 @@
 		27AF6F071B1E5F4C000BA5AD /* statusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statusModel.m; sourceTree = "<group>"; };
 		27AF6F091B20F7E0000BA5AD /* VideoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCollectionViewController.h; sourceTree = "<group>"; };
 		27AF6F0A1B20F7E0000BA5AD /* VideoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCollectionViewController.m; sourceTree = "<group>"; };
+		27AF6F0F1B21281B000BA5AD /* ParseBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseBlog.h; sourceTree = "<group>"; };
+		27AF6F101B21281B000BA5AD /* ParseBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseBlog.m; sourceTree = "<group>"; };
 		27C5908C1AE1AC74008F4B4E /* 5 Across Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 Across Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C590901AE1AC74008F4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C590911AE1AC74008F4B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 				27411A781B14FAC300664EBB /* Images */,
 				27C590931AE1AC74008F4B4E /* AppDelegate.h */,
 				27C590941AE1AC74008F4B4E /* AppDelegate.m */,
+				27AF6F0F1B21281B000BA5AD /* ParseBlog.h */,
+				27AF6F101B21281B000BA5AD /* ParseBlog.m */,
 				27411A731B14398300664EBB /* Tab Bar VC */,
 				27C590B81AE1D4A4008F4B4E /* PostDataViewController.h */,
 				27C590B91AE1D4A4008F4B4E /* PostDataViewController.m */,
@@ -407,6 +412,7 @@
 				271FC5161B16E288008D51CC /* RoundButton.m in Sources */,
 				27C590BA1AE1D4A4008F4B4E /* PostDataViewController.m in Sources */,
 				27C590921AE1AC74008F4B4E /* main.m in Sources */,
+				27AF6F111B21281B000BA5AD /* ParseBlog.m in Sources */,
 				27AF6F0B1B20F7E0000BA5AD /* VideoCollectionViewController.m in Sources */,
 				27C590C31AE1DAC2008F4B4E /* PostTableViewController.m in Sources */,
 			);

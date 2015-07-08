@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+
 
 @interface AppDelegate ()
 
@@ -15,10 +15,13 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
+    //ParseBlog *feed = [[ParseBlog alloc] init];
+    //[feed loadBlogInfo];
+
+    
     return YES;
 }
 
