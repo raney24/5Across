@@ -11,64 +11,48 @@
 
 @implementation AboutViewController
 
-int buttonPressedSwitch = 0;
+int pitchSwitch = 0;
+int minuteSwitch = 0;
+int moneySwitch = 0;
+int timeSwitch = 0;
+int feeSwitch = 0;
 
 -(void)viewDidLoad {
     [super viewDidLoad];
     
+    _minuteLabelDescr.hidden = YES;
+    _pitchesLabelDescr.hidden = YES;
     
+    //_pitchesButton.layer.cornerRadius = 10;//_pitchesButton.frame.size.width / 2;
+    //_pitchesButton.clipsToBounds = YES;
     
-    _pitchesButton.layer.cornerRadius = 10;//_pitchesButton.frame.size.width / 2;
-    _pitchesButton.clipsToBounds = YES;
+    //_pitchesButton.layer.borderWidth = 3.0f;
+    //_pitchesButton.layer.borderColor = [UIColor whiteColor].CGColor;
+}
+
+- (void)buttonPressed: (UILabel *)withLabel : (UIImageView *)withIcon : (UILabel *)withDes
+{
     
-    _pitchesButton.layer.borderWidth = 3.0f;
-    _pitchesButton.layer.borderColor = [UIColor whiteColor].CGColor;
+    if ((minuteSwitch % 2) ==  0) {
+        withDes.hidden = NO;
+        withLabel.hidden = YES;
+        withIcon.hidden = YES;
+        minuteSwitch++;
+    } else {
+        withDes.hidden = YES;
+        withIcon.hidden = NO;
+        withLabel.hidden = NO;
+        minuteSwitch++;
+    }
+    
 }
 
 - (IBAction)pitchesButtonPressed:(UIButton *)sender {
-    
-    NSString *pitchesDetailText = @"5 passionate teams present their business concepts";
-
-    
-    NSString *pitchesTitleText = @"5 Pitches";
-    
-    if ((buttonPressedSwitch % 2) ==  0) {
-        
-        [_pitchesButton setImage:NULL forState:UIControlStateNormal];
-        [_pitchesButton setTitleEdgeInsets:UIEdgeInsetsMake(0.0f, 10.0f, 10.0f, 0.0f)];
-        _pitchesButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-        
-        [_pitchesButton setTitle:pitchesDetailText forState:UIControlStateNormal];
-        buttonPressedSwitch++;
-    } else {
-        [_pitchesButton setTitle:@"Hell2o" forState:UIControlStateNormal];
-        buttonPressedSwitch++;
-    }
+    [self buttonPressed:_pitchesLabel :_pitchesIcon :_pitchesLabelDescr];
     
 }
+
 - (IBAction)minuteButtonPressed:(UIButton *)sender {
-    NSString *minuteDetailText = @"Each team gets up to 5 minutes to communicate their vision";
-    UIImage *minuteIcon = [UIImage imageNamed:@"minute-icon.png"];
-
-    
-
-    
-    if ((buttonPressedSwitch % 2) ==  0) {
-        
-
-        _minuteLabel.text = minuteDetailText;
-        [_minuteLabel setNumberOfLines:0];
-        [_minuteLabel sizeToFit];
-        //[_minuteLabel removeConstraint: _minuteLabelTopContstraint];
-        
-        _minuteLabel.frame = CGRectMake(_minuteLabel.frame.origin.x+25, _minuteLabel.frame.origin.y, 120.0f, 120.0f);
-        _minuteIcon.hidden = YES;
-        buttonPressedSwitch++;
-    } else {
-        _minuteLabel.text = @"Hello";
-        //_minuteIcon.image = minuteIcon;
-        _minuteIcon.hidden = NO;
-        buttonPressedSwitch++;
-    }
+    [self buttonPressed:_minuteLabel :_minuteIcon :_minuteLabelDescr];
 }
 @end

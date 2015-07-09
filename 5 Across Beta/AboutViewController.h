@@ -13,10 +13,15 @@
 @property (weak, nonatomic) IBOutlet UIButton *pitchesButton;
 
 - (IBAction)pitchesButtonPressed:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *pitchesIcon;
+@property (weak, nonatomic) IBOutlet UILabel *pitchesLabel;
+@property (weak, nonatomic) IBOutlet UILabel *pitchesLabelDescr;
+
 
 @property (weak, nonatomic) IBOutlet UIButton *minuteButton;
 - (IBAction)minuteButtonPressed:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *minuteLabel;
+@property (weak, nonatomic) IBOutlet UILabel *minuteLabelDescr;
 @property (weak, nonatomic) IBOutlet UIImageView *minuteIcon;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *minuteLabelTopContstraint;
 

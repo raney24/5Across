@@ -12,17 +12,17 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     
-    MWFeedParser *blogParser;
-    NSMutableArray *parsedItems;
-    
-    NSArray *itemsToDisplay;
-    NSDateFormatter *formatter;
+//    MWFeedParser *blogParser;
+//    NSMutableArray *parsedItems;
+//    
+//    NSArray *itemsToDisplay;
+//    NSDateFormatter *formatter;
 
 }
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property(strong, nonatomic) NSArray *itemsToDisplay;
+//@property(strong, nonatomic) NSArray *itemsToDisplay;
 
 
 @end

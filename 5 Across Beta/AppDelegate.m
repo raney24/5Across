@@ -17,6 +17,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+    UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
+    UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
+    UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
+    
+//    tabBarItem1.title = @"About";
+    tabBarItem2.title = @"Blog";
+    tabBarItem3.title = @"Home";
+    tabBarItem4.title = @"Videos";
+    
+    
+    tabBarItem1 = [tabBarItem1 initWithTitle:@"Home" image:[UIImage imageNamed:@"home.png"] selectedImage:[UIImage imageNamed:@"home_selected.png"]];
+    
+    tabBarItem2 = [tabBarItem2 initWithTitle:@"About" image:[UIImage imageNamed:@"home.png"] selectedImage:[UIImage imageNamed:@"home_selected.png"]];
+    
+    tabBarItem3 = [tabBarItem3 initWithTitle:@"Posts" image:[UIImage imageNamed:@"home.png"] selectedImage:[UIImage imageNamed:@"_selected.png"]];
+    
+    tabBarItem4 = [tabBarItem4 initWithTitle:@"Videos" image:[UIImage imageNamed:@"home.png"] selectedImage:[UIImage imageNamed:@"home_selected.png"]];
+    
+    
+    //[tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"home_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"home.png"]];
+    [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"maps_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"maps.png"]];
+    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"myplan_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"myplan.png"]];
+    [tabBarItem4 setFinishedSelectedImage:[UIImage imageNamed:@"settings_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"settings.png"]];
+    
     
     //ParseBlog *feed = [[ParseBlog alloc] init];
     //[feed loadBlogInfo];
